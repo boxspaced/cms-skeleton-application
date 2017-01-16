@@ -1,0 +1,72 @@
+<?php
+/**
+ * Local Configuration Override for DEVELOPMENT MODE.
+ *
+ * This configuration override file is for providing configuration to use while
+ * in development mode. Run:
+ *
+ * <code>
+ * $ composer development-enable
+ * </code>
+ *
+ * from the project root to copy this file to development.local.php and enable
+ * the settings it contains.
+ *
+ * You may also create files matching the glob pattern `{,*.}{global,local}-development.php`.
+ */
+
+use Zend\Mail\Transport\Smtp;
+
+return [
+    'view_manager' => [
+        'display_not_found_reason' => true,
+        'display_exceptions' => true,
+    ],
+    'entity_manager' => [
+        'db' => [
+            'database' => 'cms',
+            'username' => 'root',
+            'password' => '',
+            'hostname' => 'localhost',
+            'profiler' => true,
+        ],
+    ],
+    'router' => [
+        'routes' => [
+            'home' => [
+                'options' => [
+                    'defaults' => [
+                        'id' => 1,
+                    ],
+                ],
+            ],
+        ],
+    ],
+    'mail' => [
+        'transport' => [
+            Smtp::class => [
+                'options' => [
+                    'host' => 'localhost',
+                    'port' => 1025,
+                ],
+            ],
+        ],
+    ],
+    'editor' => [
+        'license_name' => '',
+        'license_key' => '',
+    ],
+    'core' => [
+        'has_ssl' => false,
+        'hostname' => 'www.cms.dev',
+        'email' => 'admin@cms.dev',
+    ],
+    'account' => [
+        'password_hashing_algorithm' => 'SHA256', // @todo remove now PHP password hashing functions are used
+    ],
+    'helpdesk' => [
+        'managers' => [
+            'support@cms.dev',
+        ],
+    ],
+];

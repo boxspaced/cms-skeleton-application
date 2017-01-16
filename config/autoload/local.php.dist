@@ -1,0 +1,66 @@
+<?php
+/**
+ * Local Configuration Override
+ *
+ * This configuration override file is for overriding environment-specific and
+ * security-sensitive configuration information. Copy this file without the
+ * .dist extension at the end and populate values as needed.
+ *
+ * @NOTE: This file is ignored from Git by default with the .gitignore included
+ * in ZendSkeletonApplication. This is a good practice, as it prevents sensitive
+ * credentials from accidentally being committed into version control.
+ */
+
+use Zend\Mail\Transport\Smtp;
+
+return [
+    'entity_manager' => [
+        'db' => [
+            'database' => '',
+            'username' => '',
+            'password' => '',
+            'hostname' => '',
+        ],
+    ],
+    'router' => [
+        'routes' => [
+            'home' => [
+                'options' => [
+                    'defaults' => [
+                        'id' => 0,
+                    ],
+                ],
+            ],
+        ],
+    ],
+    'mail' => [
+        'transport' => [
+            Smtp::class => [
+                'options' => [
+                    'host' => '',
+                    'connection_class' => '',
+                    'connection_config' => [
+                        'username' => '',
+                        'password' => '',
+                    ],
+                ],
+            ],
+        ],
+    ],
+    'editor' => [
+        'license_name' => '',
+        'license_key' => '',
+    ],
+    'core' => [
+        'hostname' => '',
+        'email' => '',
+    ],
+    'account' => [
+        'password_hashing_algorithm' => '',
+    ],
+    'helpdesk' => [
+        'managers' => [
+            '',
+        ],
+    ],
+];

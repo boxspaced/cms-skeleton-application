@@ -1,0 +1,32 @@
+<?php
+$this->headLink()->appendStylesheet('/css/2col.css', 'screen');
+$this->layout()->title = 'Search results';
+?>
+
+            <section class="col first-col">
+                <h1>Results</h1>
+                <?php if ($this->results) : ?>
+                <ol class="search-results">
+                    <?php echo $this->results; ?>
+                </ol>
+                <?php else : ?>
+                <p>No results found</p>
+                <?php endif; ?>
+                <?php echo $this->paginationControl(
+                    $this->paginator,
+                    'Sliding',
+                    'partial/pagination.phtml',
+                    [
+                        'route' => [
+                            'name' => 'search',
+                            'params' => [
+                                'action' => 'simple',
+                            ],
+                        ],
+                        'query' => $this->query,
+                    ]
+                ); ?>
+            </section>
+            <section class="col last-col">
+                <?php echo $this->rightColumn; ?>
+            </section>

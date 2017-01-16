@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
+
+# Configure Git
+read -p "Github username: " username
+read -p "Github email address: " email
+
+git config user.name $username
+git config user.email $email
+git config core.autocrlf input
+if [[ $(uname -s) =~ CYGWIN*|MINGW*|MSYS* ]]
+then
+    echo "Setting Git config core.filemode false"
+    git config core.filemode false
+fi
+
+# Composer
+composer install --ignore-platform-reqs
+
+# Create VM
+vagrant up

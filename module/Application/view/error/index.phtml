@@ -1,0 +1,78 @@
+<?php
+$this->headLink()->appendStylesheet('/css/2col-large-left.css', 'screen');
+$this->layout()->title = 'Application Error';
+$this->layout()->navText = 'Application Error';
+$this->layout()->isStandalone = true;
+?>
+
+<section class="col first-col">
+
+    <h1>Application Error</h1>
+    <h2><?php echo $this->message ?></h2>
+
+    <?php if (!empty($this->display_exceptions)) : ?>
+    <?php if (isset($this->exception) && ($this->exception instanceof \Exception || $this->exception instanceof \Error)) : ?>
+
+    <hr/>
+
+    <h2>Additional information:</h2>
+    <h3><?php echo get_class($this->exception) ?></h3>
+    <dl>
+        <dt>File:</dt>
+        <dd>
+            <pre><?php echo $this->exception->getFile() ?>:<?php echo $this->exception->getLine() ?></pre>
+        </dd>
+        <dt>Message:</dt>
+        <dd>
+            <pre><?php echo $this->escapeHtml($this->exception->getMessage()) ?></pre>
+        </dd>
+        <dt>Stack trace:</dt>
+        <dd>
+            <pre><?php echo $this->escapeHtml($this->exception->getTraceAsString()) ?></pre>
+        </dd>
+    </dl>
+
+    <?php if ($exception = $this->exception->getPrevious()) : ?>
+
+    <hr/>
+
+    <h2>Previous exceptions:</h2>
+    <ul>
+        <?php $count = 0 ?>
+        <?php while ($exception) : ?>
+        <li>
+            <h3><?php echo get_class($exception) ?></h3>
+            <dl>
+                <dt>File:</dt>
+                <dd>
+                    <pre><?php echo $exception->getFile() ?>:<?php echo $exception->getLine() ?></pre>
+                </dd>
+                <dt>Message:</dt>
+                <dd>
+                    <pre><?php echo $this->escapeHtml($exception->getMessage()) ?></pre>
+                </dd>
+                <dt>Stack trace:</dt>
+                <dd>
+                    <pre><?php echo $this->escapeHtml($exception->getTraceAsString()) ?></pre>
+                </dd>
+            </dl>
+        </li>
+        <?php $exception = $exception->getPrevious() ?>
+        <?php if (++$count >= 50) : ?>
+        <li>There may be more exceptions, but we do not have enough memory to process it.</li>
+        <?php break; endif; ?>
+        <?php endwhile; ?>
+    </ul>
+
+    <?php endif; ?>
+
+    <?php else : ?>
+    <h3>No Exception available</h3>
+    <?php endif; ?>
+
+    <?php endif; ?>
+
+</section>
+<section class="col last-col">
+    &nbsp;
+</section>

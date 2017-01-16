@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="cms:template" content="<?php echo $this->escapeHtmlAttr($this->template) ?>" />
+        <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+        <link href="/css/global.css" rel="stylesheet" media="screen" />
+        <?php echo $this->headLink(); ?>
+        <title>Organization - <?php echo $this->escapeHtml($this->title) ?></title>
+    </head>
+    <body>
+        <div id="content">
+            <?php if ($this->adminNavigation) : ?>
+            <nav id="admin-menu-control">
+                <?php echo $this->adminNavigation ?>
+            </nav>
+            <?php endif; ?>
+            <?php if ($this->adminPanel) : ?>
+            <nav id="admin-control" class="well">
+                <?php echo $this->adminPanel ?>
+            </nav>
+            <?php endif; ?>
+            <section class="accessibility">
+                <h1>Organization - <?php echo $this->escapeHtml($this->title) ?></h1>
+                <nav>
+                    <ul>
+                        <li><a accesskey="s" href="#main-content">Skip to content</a> [access key 's']</li>
+                        <li><a accesskey="n" href="#navigation">Skip to navigation</a> [access key 'n']</li>
+                        <li><a accesskey="3" href="<?php echo $this->url('content', ['slug' => 'sitemap']); ?>">Site map</a> [access key '3']</li>
+                        <li><a accesskey="0" href="<?php echo $this->url('content', ['slug' => 'accessibility']); ?>">Accessibility information</a> [access key '0']</li>
+                    </ul>
+                </nav>
+            </section>
+            <header id="header">
+                <a accesskey="1" href="<?php echo $this->url('content', ['slug' => 'home']); ?>"><img id="logo" src="/images/logo.png" alt="Logo"></a>
+                <div id="search">
+                    <form class="form-search" action="<?php echo $this->url('search', ['action' => 'simple']); ?>" method="get">
+                        <div class="input-append">
+                            <input accesskey="4" class="search-query" type="text" name="q" placeholder="Search site...">
+                            <button type="submit" class="btn"><i class="icon-search"></i></button>
+                        </div>
+                    </form>
+                </div>
+                <div class="clearfix"></div>
+                <a id="navigation"></a>
+                <nav>
+                <?php echo $this->navigation('Navigation\Main')
+                        ->menu()
+                        ->setUlClass('nav nav-pills main-nav')
+                        ->setLiActiveClass('active')
+                        ->setMaxDepth(0); ?>
+                </nav>
+            </header>
+            <nav id="breadcrumbs">
+                <?php if (!$this->hideBreadcrumbs) : ?>
+                <a href="<?php echo $this->url('content', ['slug' => 'home']); ?>">Home</a> /
+                <?php if ($this->isStandalone) : ?>
+                <?php echo $this->escapeHtml($this->navText) ?>
+                <?php else : ?>
+                    <?php echo $this->navigation('Navigation\Main')
+                        ->breadcrumbs()
+                        ->setSeparator(' / ')
+                        ->setMinDepth(0); ?>
+                <?php endif; ?>
+                <?php endif; ?>
+            </nav>
+            <?php echo $this->messages() ?>
+            <div class="clearfix"></div>
+            <a id="main-content"></a>
+            <?php echo $this->content; ?>
+            <div class="clearfix"></div>
+            <footer id="footer">
+                <p>&copy; Organization <?php echo date('Y') ?></p>
+                <nav id="footer-menu">
+                    <a href="<?php echo $this->url('content', ['slug' => 'sitemap']); ?>">Site Map</a>  |
+                    <a href="<?php echo $this->url('account', ['action' => 'login']); ?>">Login</a>
+                </nav>
+                <div class="clearfix"></div><br>
+            </footer>
+        </div>
+        <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+        <script src="/bootstrap/js/bootstrap.min.js"></script>
+        <script src="/js/global.js"></script>
+        <?php echo $this->inlineScript(); ?>
+    </body>
+</html>

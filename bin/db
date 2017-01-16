@@ -1,0 +1,75 @@
+#!/usr/bin/env php
+<?php
+
+use Zend\Log\Logger;
+
+define('PREVENT_RUN', true);
+$application = require __DIR__ . '/../public/index.php';
+
+$sm = $application->getServiceManager();
+
+$log = $sm->get(Logger::class);
+$config = $sm->get('config')['entity_manager']['db'];
+
+try {
+
+    $options = new Zend_Console_Getopt(array(
+        'drop|d' => 'Drop the database',
+        'create|c' => 'Create the database',
+    ));
+    $options->parse();
+
+    $dsn = sprintf('mysql:host=%s;charset=UTF8', $config['hostname']);
+
+    $db = new PDO($dsn, $config['username'], $config['password'], [
+        PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\'',
+    ]);
+
+    switch (true) {
+
+        case $options->getOption('drop'):
+
+            $db->exec(sprintf(
+                'DROP DATABASE IF EXISTS `%s`',
+                $config['database']
+            ));
+            break;
+
+        case $options->getOption('create'):
+
+            $db->exec(sprintf(
+                '
+                    CREATE DATABASE IF NOT EXISTS `%s`
+                    CHARACTER SET utf8
+                    COLLATE utf8_general_ci
+                ',
+                $config['database']
+            ));
+
+            $db->exec(sprintf('USE `%s`', $config['database']));
+
+            $schema = file_get_contents(__DIR__ . '/../migrations/base-schema.sql');
+            $db->exec($schema);
+
+            $fixtures = file_get_contents(__DIR__ . '/../migrations/base-fixtures.sql');
+            $db->exec($fixtures);
+
+            break;
+
+        default:
+            echo $options->getUsageMessage();
+            exit(1);
+
+    }
+
+} catch (Zend_Console_Getopt_Exception $e) {
+
+    echo $e->getUsageMessage();
+    exit(1);
+
+} catch (Exception $e) {
+
+    $log->err($e);
+    echo 'An error occured, please see logs';
+    exit(1);
+}

@@ -1,0 +1,35 @@
+RewriteEngine On
+
+# Old URL redirections
+Redirect 301 /en/forms/contact/books_reading_make_stock_suggestion /about-us-stock-suggestion
+
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [L]
+RewriteCond %{REQUEST_URI}::$1 ^(/.+)/(.*)::\2$
+RewriteRule ^(.*) - [E=BASE:%1]
+RewriteRule ^(.*)$ %{ENV:BASE}/index.php [L]
+
+# Compression
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE text/javascript
+AddOutputFilterByType DEFLATE application/json
+
+# Disable ETags as only on single server
+# Enable (and configure correctly) if move to multiple servers
+Header unset ETag
+FileETag None
+
+<IfModule mod_php7.c>
+    # Any changes here should be reflected in .user.ini
+    php_value upload_max_filesize 50M
+    php_value post_max_size 50M
+</IfModule>
+
+# Hide .user.ini
+<Files ~ "\.ini">
+   Order allow,deny
+   Deny from all
+</Files>

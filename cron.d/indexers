@@ -1,0 +1,1 @@
+00 00 * * * __USER__ __BASEDIR__/bin/search --index
