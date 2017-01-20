@@ -81,12 +81,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxspaced/cms-block-module.git",
-                "reference": "9526b95f6044f80aca45c1c7bd12be636c519dbe"
+                "reference": "7c65697fa22a8dc931dfc9a2ccdc5c5ed767fd80"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxspaced/cms-block-module/zipball/9526b95f6044f80aca45c1c7bd12be636c519dbe",
-                "reference": "9526b95f6044f80aca45c1c7bd12be636c519dbe",
+                "url": "https://api.github.com/repos/boxspaced/cms-block-module/zipball/7c65697fa22a8dc931dfc9a2ccdc5c5ed767fd80",
+                "reference": "7c65697fa22a8dc931dfc9a2ccdc5c5ed767fd80",
                 "shasum": ""
             },
             "require": {
@@ -107,7 +107,7 @@
                 "source": "https://github.com/boxspaced/cms-block-module/tree/1.0.0",
                 "issues": "https://github.com/boxspaced/cms-block-module/issues"
             },
-            "time": "2017-01-15 16:40:08"
+            "time": "2017-01-19 17:07:36"
         },
         {
             "name": "boxspaced/cms-core-module",
@@ -115,12 +115,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxspaced/cms-core-module.git",
-                "reference": "cdeee5d3e1272dac6fcc11de6877bd48a9ffd300"
+                "reference": "a26fd2395267b0279b1384b323004d5bda928931"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxspaced/cms-core-module/zipball/cdeee5d3e1272dac6fcc11de6877bd48a9ffd300",
-                "reference": "cdeee5d3e1272dac6fcc11de6877bd48a9ffd300",
+                "url": "https://api.github.com/repos/boxspaced/cms-core-module/zipball/a26fd2395267b0279b1384b323004d5bda928931",
+                "reference": "a26fd2395267b0279b1384b323004d5bda928931",
                 "shasum": ""
             },
             "require": {
@@ -168,7 +168,7 @@
                 "source": "https://github.com/boxspaced/cms-core-module/tree/1.0.1",
                 "issues": "https://github.com/boxspaced/cms-core-module/issues"
             },
-            "time": "2017-01-16 17:14:21"
+            "time": "2017-01-19 17:07:43"
         },
         {
             "name": "boxspaced/cms-helpdesk-module",
@@ -176,12 +176,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxspaced/cms-helpdesk-module.git",
-                "reference": "7e2abe032ad91b76218ae0e670b66dde4100f200"
+                "reference": "62a08a5f7f298af3e62fff03526c3e07b4f8b2fb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxspaced/cms-helpdesk-module/zipball/7e2abe032ad91b76218ae0e670b66dde4100f200",
-                "reference": "7e2abe032ad91b76218ae0e670b66dde4100f200",
+                "url": "https://api.github.com/repos/boxspaced/cms-helpdesk-module/zipball/62a08a5f7f298af3e62fff03526c3e07b4f8b2fb",
+                "reference": "62a08a5f7f298af3e62fff03526c3e07b4f8b2fb",
                 "shasum": ""
             },
             "require": {
@@ -202,7 +202,7 @@
                 "source": "https://github.com/boxspaced/cms-helpdesk-module/tree/1.0.0",
                 "issues": "https://github.com/boxspaced/cms-helpdesk-module/issues"
             },
-            "time": "2017-01-15 16:40:32"
+            "time": "2017-01-19 17:09:15"
         },
         {
             "name": "boxspaced/cms-item-module",
@@ -210,12 +210,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxspaced/cms-item-module.git",
-                "reference": "ae838ae63f84ccc7d3ee0f809858859f4db2f600"
+                "reference": "1c13307e76ff175ab1baeb4cffa4a100fec1c135"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxspaced/cms-item-module/zipball/ae838ae63f84ccc7d3ee0f809858859f4db2f600",
-                "reference": "ae838ae63f84ccc7d3ee0f809858859f4db2f600",
+                "url": "https://api.github.com/repos/boxspaced/cms-item-module/zipball/1c13307e76ff175ab1baeb4cffa4a100fec1c135",
+                "reference": "1c13307e76ff175ab1baeb4cffa4a100fec1c135",
                 "shasum": ""
             },
             "require": {
@@ -236,7 +236,7 @@
                 "source": "https://github.com/boxspaced/cms-item-module/tree/1.0.0",
                 "issues": "https://github.com/boxspaced/cms-item-module/issues"
             },
-            "time": "2017-01-15 16:40:39"
+            "time": "2017-01-19 17:09:22"
         },
         {
             "name": "boxspaced/cms-menu-module",
@@ -244,12 +244,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxspaced/cms-menu-module.git",
-                "reference": "a7d8e7984644f500d608eebc37aa4e40b6066ef4"
+                "reference": "dea6350631839ebcf255549a49b26b6aaf450236"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxspaced/cms-menu-module/zipball/a7d8e7984644f500d608eebc37aa4e40b6066ef4",
-                "reference": "a7d8e7984644f500d608eebc37aa4e40b6066ef4",
+                "url": "https://api.github.com/repos/boxspaced/cms-menu-module/zipball/dea6350631839ebcf255549a49b26b6aaf450236",
+                "reference": "dea6350631839ebcf255549a49b26b6aaf450236",
                 "shasum": ""
             },
             "require": {
@@ -271,7 +271,7 @@
                 "source": "https://github.com/boxspaced/cms-menu-module/tree/1.0.0",
                 "issues": "https://github.com/boxspaced/cms-menu-module/issues"
             },
-            "time": "2017-01-15 16:40:45"
+            "time": "2017-01-19 17:09:35"
         },
         {
             "name": "boxspaced/cms-search-module",
@@ -316,12 +316,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxspaced/cms-slug-module.git",
-                "reference": "4e7962ef1835057089295c9d7151478fa96526af"
+                "reference": "9e1b7490b7eced01681a95be09c2c9f0e07074f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxspaced/cms-slug-module/zipball/4e7962ef1835057089295c9d7151478fa96526af",
-                "reference": "4e7962ef1835057089295c9d7151478fa96526af",
+                "url": "https://api.github.com/repos/boxspaced/cms-slug-module/zipball/9e1b7490b7eced01681a95be09c2c9f0e07074f5",
+                "reference": "9e1b7490b7eced01681a95be09c2c9f0e07074f5",
                 "shasum": ""
             },
             "require": {
@@ -342,7 +342,7 @@
                 "source": "https://github.com/boxspaced/cms-slug-module/tree/1.0.0",
                 "issues": "https://github.com/boxspaced/cms-slug-module/issues"
             },
-            "time": "2017-01-15 16:40:55"
+            "time": "2017-01-19 17:09:45"
         },
         {
             "name": "boxspaced/cms-standalone-module",
@@ -448,16 +448,16 @@
         },
         {
             "name": "boxspaced/entity-manager",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxspaced/entity-manager.git",
-                "reference": "dd4a40c6cd504ab1901d31cea8d1997296638ad6"
+                "reference": "db4c96bec05283b2539786f09490fe86e827cddb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxspaced/entity-manager/zipball/dd4a40c6cd504ab1901d31cea8d1997296638ad6",
-                "reference": "dd4a40c6cd504ab1901d31cea8d1997296638ad6",
+                "url": "https://api.github.com/repos/boxspaced/entity-manager/zipball/db4c96bec05283b2539786f09490fe86e827cddb",
+                "reference": "db4c96bec05283b2539786f09490fe86e827cddb",
                 "shasum": ""
             },
             "require": {
@@ -480,23 +480,23 @@
                 }
             },
             "support": {
-                "source": "https://github.com/boxspaced/entity-manager/tree/2.0.0",
+                "source": "https://github.com/boxspaced/entity-manager/tree/2.0.1",
                 "issues": "https://github.com/boxspaced/entity-manager/issues"
             },
-            "time": "2017-01-15 16:22:32"
+            "time": "2017-01-20 14:25:03"
         },
         {
             "name": "boxspaced/entity-manager-module",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxspaced/entity-manager-module.git",
-                "reference": "5d585bc9288afce116b548730fcf3949f149e7a9"
+                "reference": "6398433f389391eb583d6952f218c128152257d2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxspaced/entity-manager-module/zipball/5d585bc9288afce116b548730fcf3949f149e7a9",
-                "reference": "5d585bc9288afce116b548730fcf3949f149e7a9",
+                "url": "https://api.github.com/repos/boxspaced/entity-manager-module/zipball/6398433f389391eb583d6952f218c128152257d2",
+                "reference": "6398433f389391eb583d6952f218c128152257d2",
                 "shasum": ""
             },
             "require": {
@@ -515,10 +515,10 @@
                 }
             },
             "support": {
-                "source": "https://github.com/boxspaced/entity-manager-module/tree/1.0.0",
+                "source": "https://github.com/boxspaced/entity-manager-module/tree/1.0.1",
                 "issues": "https://github.com/boxspaced/entity-manager-module/issues"
             },
-            "time": "2017-01-15 16:29:49"
+            "time": "2017-01-20 14:20:02"
         },
         {
             "name": "brandonwamboldt/utilphp",
