@@ -23,8 +23,6 @@ Vagrant.configure(2) do |config|
     yum -y install vim httpd mysql mysql-server php71w-mysql php71w-mbstring php71w-common php71w-cli php71w php71w-xml php71w-gd php71w-pdo php71w-opcache php71w-intl java firefox Xvfb
 
     sed -i -e 's#/var/www/html#/var/cms/public#g' /etc/httpd/conf/httpd.conf
-    bash -c 'echo "SetEnv APPLICATION_ENV development" >> /etc/httpd/conf/httpd.conf'
-    bash -c 'echo "APPLICATION_ENV=\"development\"" >> /etc/environment'
     bash -c 'echo "<Directory "/var/cms/public">" >> /etc/httpd/conf/httpd.conf'
     bash -c 'echo "    AllowOverride All" >> /etc/httpd/conf/httpd.conf'
     bash -c 'echo "</Directory>" >> /etc/httpd/conf/httpd.conf'
