@@ -20,7 +20,7 @@ Vagrant.configure(2) do |config|
     rpm -Uvh https://mirror.webtatic.com/yum/el6/latest.rpm
 
     yum -y update
-    yum -y install vim httpd mysql mysql-server php71w-mysql php71w-mbstring php71w-common php71w-cli php71w php71w-xml php71w-gd php71w-pdo php71w-opcache php71w-intl java-1.8.0-openjdk-headless firefox Xvfb
+    yum -y install vim httpd mysql mysql-server php71w-mysql php71w-mbstring php71w-common php71w-cli php71w php71w-xml php71w-gd php71w-pdo php71w-opcache php71w-intl java firefox Xvfb
 
     sed -i -e 's#/var/www/html#/var/cms/public#g' /etc/httpd/conf/httpd.conf
     bash -c 'echo "SetEnv APPLICATION_ENV development" >> /etc/httpd/conf/httpd.conf'

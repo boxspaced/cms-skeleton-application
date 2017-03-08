@@ -1,12 +1,14 @@
 <?php
 
 use Boxspaced\CmsAccountModule\Service\AccountService;
+use Zend\Authentication\AuthenticationService;
 
 define('PREVENT_RUN', true);
 $application = require __DIR__ . '/../../public/index.php';
 
 $sm = $application->getServiceManager();
 
+$authService = $sm->get(AuthenticationService::class);
 $accountService = $sm->get(AccountService::class);
 $config = $sm->get('config');
 
@@ -41,8 +43,14 @@ function CheckAuthentication()
 	// user logs in your system. To be able to use session variables don't
 	// forget to add session_start() at the top of this file.
 
+    global $authService;
     global $accountService;
-    return $accountService->isAllowed('asset', 'index');
+
+    return $accountService->isAllowed(
+        'asset',
+        'index',
+        $authService->getIdentity()
+    );
 }
 
 // LicenseKey : Paste your license key here. If left blank, CKFinder will be

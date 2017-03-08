@@ -204,7 +204,7 @@ class AppContext extends BehatContext
             $insert->values([
                 'username' => $row['username'],
                 'email' => sprintf('%s@localhost', $row['username']),
-                'password' => hash($this->getConfig()['account']['password_hashing_algorithm'], 'password'),
+                'password' => password_hash('password', PASSWORD_DEFAULT),
             ]);
 
             $stmt = $sql->prepareStatementForSqlObject($insert);

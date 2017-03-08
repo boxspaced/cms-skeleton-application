@@ -13,7 +13,7 @@ insert  into `module_page`(`id`,`module_id`,`name`) values (8,9,'simple');
 insert  into `module_page_block`(`id`,`module_page_id`,`name`,`admin_label`,`sequence`) values (1,8,'rightColumn','Right column',1);
 insert  into `role`(`id`,`name`) values (1,'admin'),(2,'author'),(3,'publisher'),(7,'asset-manager'),(9,'helpdesk-user'),(10,'helpdesk-manager');
 insert  into `status`(`text`) values ('DELETED'),('DRAFT'),('PUBLISHED'),('REVISION'),('ROLLBACK');
-insert  into `user`(`id`,`username`,`email`,`password`) values (1,'admin','root@localhost','5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8');
+insert  into `user`(`id`,`username`,`email`,`password`) values (1,'admin','root@localhost','$2y$10$NayPOXAAI3hGl8wgmaXwK.kc7NQYa9s4poC/fiuk6lzHTfY3mW.uK');
 insert  into `user_role`(`id`,`user_id`,`role_id`) values (21,1,1);
 insert  into `workflow_stage`(`text`) values ('AUTHORING'),('PUBLISHING'),('REJECTED');
 

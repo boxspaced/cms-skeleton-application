@@ -4,25 +4,26 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "25bf588d2ba262b11d52a046e4192880",
-    "content-hash": "9d7e0591c36b225ac27220f043986c9f",
+    "hash": "c03b80823286d25f403efd7be6b56589",
+    "content-hash": "8cf4fc2aa48e12987125320d452024b6",
     "packages": [
         {
             "name": "boxspaced/cms-account-module",
-            "version": "1.0.0",
+            "version": "dev-rest-api",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxspaced/cms-account-module.git",
-                "reference": "eadbf04637192775e02cc5517a33c5c583963bcc"
+                "reference": "a4639255d0109626f55bd9dc956afc7d09bd53aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxspaced/cms-account-module/zipball/eadbf04637192775e02cc5517a33c5c583963bcc",
-                "reference": "eadbf04637192775e02cc5517a33c5c583963bcc",
+                "url": "https://api.github.com/repos/boxspaced/cms-account-module/zipball/a4639255d0109626f55bd9dc956afc7d09bd53aa",
+                "reference": "a4639255d0109626f55bd9dc956afc7d09bd53aa",
                 "shasum": ""
             },
             "require": {
-                "boxspaced/cms-core-module": "^1.0"
+                "boxspaced/cms-core-module": "^1.0",
+                "bshaffer/oauth2-server-php": "^1.9"
             },
             "type": "library",
             "extra": {
@@ -36,23 +37,23 @@
                 }
             },
             "support": {
-                "source": "https://github.com/boxspaced/cms-account-module/tree/1.0.0",
+                "source": "https://github.com/boxspaced/cms-account-module/tree/rest-api",
                 "issues": "https://github.com/boxspaced/cms-account-module/issues"
             },
-            "time": "2017-01-15 16:36:37"
+            "time": "2017-02-17 20:44:00"
         },
         {
             "name": "boxspaced/cms-asset-module",
-            "version": "1.0.0",
+            "version": "dev-rest-api",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxspaced/cms-asset-module.git",
-                "reference": "353069895a2ec4d8d4e884b56cbd5a64065f0ae6"
+                "reference": "b5082eb63efd7e4148118083619ac45cfa222841"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxspaced/cms-asset-module/zipball/353069895a2ec4d8d4e884b56cbd5a64065f0ae6",
-                "reference": "353069895a2ec4d8d4e884b56cbd5a64065f0ae6",
+                "url": "https://api.github.com/repos/boxspaced/cms-asset-module/zipball/b5082eb63efd7e4148118083619ac45cfa222841",
+                "reference": "b5082eb63efd7e4148118083619ac45cfa222841",
                 "shasum": ""
             },
             "require": {
@@ -70,23 +71,23 @@
                 }
             },
             "support": {
-                "source": "https://github.com/boxspaced/cms-asset-module/tree/1.0.0",
+                "source": "https://github.com/boxspaced/cms-asset-module/tree/rest-api",
                 "issues": "https://github.com/boxspaced/cms-asset-module/issues"
             },
-            "time": "2017-01-15 16:37:50"
+            "time": "2017-02-14 17:44:04"
         },
         {
             "name": "boxspaced/cms-block-module",
-            "version": "1.0.0",
+            "version": "dev-rest-api",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxspaced/cms-block-module.git",
-                "reference": "7c65697fa22a8dc931dfc9a2ccdc5c5ed767fd80"
+                "reference": "03960dc378caf01092ef387d5c7c0a9786663096"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxspaced/cms-block-module/zipball/7c65697fa22a8dc931dfc9a2ccdc5c5ed767fd80",
-                "reference": "7c65697fa22a8dc931dfc9a2ccdc5c5ed767fd80",
+                "url": "https://api.github.com/repos/boxspaced/cms-block-module/zipball/03960dc378caf01092ef387d5c7c0a9786663096",
+                "reference": "03960dc378caf01092ef387d5c7c0a9786663096",
                 "shasum": ""
             },
             "require": {
@@ -104,23 +105,23 @@
                 }
             },
             "support": {
-                "source": "https://github.com/boxspaced/cms-block-module/tree/1.0.0",
+                "source": "https://github.com/boxspaced/cms-block-module/tree/rest-api",
                 "issues": "https://github.com/boxspaced/cms-block-module/issues"
             },
-            "time": "2017-01-19 17:07:36"
+            "time": "2017-02-14 18:22:52"
         },
         {
             "name": "boxspaced/cms-core-module",
-            "version": "1.0.1",
+            "version": "dev-rest-api",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxspaced/cms-core-module.git",
-                "reference": "a26fd2395267b0279b1384b323004d5bda928931"
+                "reference": "32bb017bc60cb31ef9fe07df0ba04d4d5460af58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxspaced/cms-core-module/zipball/a26fd2395267b0279b1384b323004d5bda928931",
-                "reference": "a26fd2395267b0279b1384b323004d5bda928931",
+                "url": "https://api.github.com/repos/boxspaced/cms-core-module/zipball/32bb017bc60cb31ef9fe07df0ba04d4d5460af58",
+                "reference": "32bb017bc60cb31ef9fe07df0ba04d4d5460af58",
                 "shasum": ""
             },
             "require": {
@@ -165,23 +166,23 @@
                 ]
             },
             "support": {
-                "source": "https://github.com/boxspaced/cms-core-module/tree/1.0.1",
+                "source": "https://github.com/boxspaced/cms-core-module/tree/rest-api",
                 "issues": "https://github.com/boxspaced/cms-core-module/issues"
             },
-            "time": "2017-01-19 17:07:43"
+            "time": "2017-02-17 20:44:06"
         },
         {
             "name": "boxspaced/cms-helpdesk-module",
-            "version": "1.0.0",
+            "version": "dev-rest-api",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxspaced/cms-helpdesk-module.git",
-                "reference": "62a08a5f7f298af3e62fff03526c3e07b4f8b2fb"
+                "reference": "462aca229faa62729cc6aaeacf0b90e1a1e29ba3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxspaced/cms-helpdesk-module/zipball/62a08a5f7f298af3e62fff03526c3e07b4f8b2fb",
-                "reference": "62a08a5f7f298af3e62fff03526c3e07b4f8b2fb",
+                "url": "https://api.github.com/repos/boxspaced/cms-helpdesk-module/zipball/462aca229faa62729cc6aaeacf0b90e1a1e29ba3",
+                "reference": "462aca229faa62729cc6aaeacf0b90e1a1e29ba3",
                 "shasum": ""
             },
             "require": {
@@ -199,23 +200,23 @@
                 }
             },
             "support": {
-                "source": "https://github.com/boxspaced/cms-helpdesk-module/tree/1.0.0",
+                "source": "https://github.com/boxspaced/cms-helpdesk-module/tree/rest-api",
                 "issues": "https://github.com/boxspaced/cms-helpdesk-module/issues"
             },
-            "time": "2017-01-19 17:09:15"
+            "time": "2017-02-14 18:23:30"
         },
         {
             "name": "boxspaced/cms-item-module",
-            "version": "1.0.0",
+            "version": "dev-rest-api",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxspaced/cms-item-module.git",
-                "reference": "1c13307e76ff175ab1baeb4cffa4a100fec1c135"
+                "reference": "4f90042d47492dde4ef75c61acc1976ae2255fb1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxspaced/cms-item-module/zipball/1c13307e76ff175ab1baeb4cffa4a100fec1c135",
-                "reference": "1c13307e76ff175ab1baeb4cffa4a100fec1c135",
+                "url": "https://api.github.com/repos/boxspaced/cms-item-module/zipball/4f90042d47492dde4ef75c61acc1976ae2255fb1",
+                "reference": "4f90042d47492dde4ef75c61acc1976ae2255fb1",
                 "shasum": ""
             },
             "require": {
@@ -233,23 +234,23 @@
                 }
             },
             "support": {
-                "source": "https://github.com/boxspaced/cms-item-module/tree/1.0.0",
+                "source": "https://github.com/boxspaced/cms-item-module/tree/rest-api",
                 "issues": "https://github.com/boxspaced/cms-item-module/issues"
             },
-            "time": "2017-01-19 17:09:22"
+            "time": "2017-02-17 18:18:46"
         },
         {
             "name": "boxspaced/cms-menu-module",
-            "version": "1.0.0",
+            "version": "dev-rest-api",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxspaced/cms-menu-module.git",
-                "reference": "dea6350631839ebcf255549a49b26b6aaf450236"
+                "reference": "22de0cd0c3a97543e6b564e5550375cce07f356d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxspaced/cms-menu-module/zipball/dea6350631839ebcf255549a49b26b6aaf450236",
-                "reference": "dea6350631839ebcf255549a49b26b6aaf450236",
+                "url": "https://api.github.com/repos/boxspaced/cms-menu-module/zipball/22de0cd0c3a97543e6b564e5550375cce07f356d",
+                "reference": "22de0cd0c3a97543e6b564e5550375cce07f356d",
                 "shasum": ""
             },
             "require": {
@@ -268,23 +269,23 @@
                 }
             },
             "support": {
-                "source": "https://github.com/boxspaced/cms-menu-module/tree/1.0.0",
+                "source": "https://github.com/boxspaced/cms-menu-module/tree/rest-api",
                 "issues": "https://github.com/boxspaced/cms-menu-module/issues"
             },
-            "time": "2017-01-19 17:09:35"
+            "time": "2017-02-14 18:23:42"
         },
         {
             "name": "boxspaced/cms-search-module",
-            "version": "1.0.0",
+            "version": "dev-rest-api",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxspaced/cms-search-module.git",
-                "reference": "0ee153035c3555868fe4b84f1c0a46ab28345cb5"
+                "reference": "8663b18830f028e91db5e159162d288e5b814930"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxspaced/cms-search-module/zipball/0ee153035c3555868fe4b84f1c0a46ab28345cb5",
-                "reference": "0ee153035c3555868fe4b84f1c0a46ab28345cb5",
+                "url": "https://api.github.com/repos/boxspaced/cms-search-module/zipball/8663b18830f028e91db5e159162d288e5b814930",
+                "reference": "8663b18830f028e91db5e159162d288e5b814930",
                 "shasum": ""
             },
             "require": {
@@ -305,10 +306,10 @@
                 }
             },
             "support": {
-                "source": "https://github.com/boxspaced/cms-search-module/tree/1.0.0",
+                "source": "https://github.com/boxspaced/cms-search-module/tree/rest-api",
                 "issues": "https://github.com/boxspaced/cms-search-module/issues"
             },
-            "time": "2017-01-15 16:40:50"
+            "time": "2017-02-14 18:23:51"
         },
         {
             "name": "boxspaced/cms-slug-module",
@@ -346,16 +347,16 @@
         },
         {
             "name": "boxspaced/cms-standalone-module",
-            "version": "1.0.0",
+            "version": "dev-rest-api",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxspaced/cms-standalone-module.git",
-                "reference": "70002018166dc7e65849ff8393366d8df51f2269"
+                "reference": "db54a05e71564cc471fef491bc7cdb9466238064"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxspaced/cms-standalone-module/zipball/70002018166dc7e65849ff8393366d8df51f2269",
-                "reference": "70002018166dc7e65849ff8393366d8df51f2269",
+                "url": "https://api.github.com/repos/boxspaced/cms-standalone-module/zipball/db54a05e71564cc471fef491bc7cdb9466238064",
+                "reference": "db54a05e71564cc471fef491bc7cdb9466238064",
                 "shasum": ""
             },
             "require": {
@@ -373,10 +374,10 @@
                 }
             },
             "support": {
-                "source": "https://github.com/boxspaced/cms-standalone-module/tree/1.0.0",
+                "source": "https://github.com/boxspaced/cms-standalone-module/tree/rest-api",
                 "issues": "https://github.com/boxspaced/cms-standalone-module/issues"
             },
-            "time": "2017-01-15 16:41:01"
+            "time": "2017-02-14 18:23:57"
         },
         {
             "name": "boxspaced/cms-versioning-module",
@@ -414,16 +415,16 @@
         },
         {
             "name": "boxspaced/cms-workflow-module",
-            "version": "1.0.0",
+            "version": "dev-rest-api",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxspaced/cms-workflow-module.git",
-                "reference": "51c76dc6b81215c4938685eeb72be9236a13f03c"
+                "reference": "d57e7e8a9b52bacadeb646cdc13992c698ceac3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxspaced/cms-workflow-module/zipball/51c76dc6b81215c4938685eeb72be9236a13f03c",
-                "reference": "51c76dc6b81215c4938685eeb72be9236a13f03c",
+                "url": "https://api.github.com/repos/boxspaced/cms-workflow-module/zipball/d57e7e8a9b52bacadeb646cdc13992c698ceac3a",
+                "reference": "d57e7e8a9b52bacadeb646cdc13992c698ceac3a",
                 "shasum": ""
             },
             "require": {
@@ -441,10 +442,10 @@
                 }
             },
             "support": {
-                "source": "https://github.com/boxspaced/cms-workflow-module/tree/1.0.0",
+                "source": "https://github.com/boxspaced/cms-workflow-module/tree/rest-api",
                 "issues": "https://github.com/boxspaced/cms-workflow-module/issues"
             },
-            "time": "2017-01-15 16:41:51"
+            "time": "2017-02-14 18:41:49"
         },
         {
             "name": "boxspaced/entity-manager",
@@ -567,18 +568,77 @@
             "time": "2015-02-02 17:56:14"
         },
         {
-            "name": "container-interop/container-interop",
-            "version": "1.1.0",
+            "name": "bshaffer/oauth2-server-php",
+            "version": "v1.9.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/container-interop/container-interop.git",
-                "reference": "fc08354828f8fd3245f77a66b9e23a6bca48297e"
+                "url": "https://github.com/bshaffer/oauth2-server-php.git",
+                "reference": "8856aed1a98d6da596ae3f9b8095b5c7a1581697"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/container-interop/container-interop/zipball/fc08354828f8fd3245f77a66b9e23a6bca48297e",
-                "reference": "fc08354828f8fd3245f77a66b9e23a6bca48297e",
+                "url": "https://api.github.com/repos/bshaffer/oauth2-server-php/zipball/8856aed1a98d6da596ae3f9b8095b5c7a1581697",
+                "reference": "8856aed1a98d6da596ae3f9b8095b5c7a1581697",
                 "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "aws/aws-sdk-php": "~2.8",
+                "firebase/php-jwt": "~2.2",
+                "mongodb/mongodb": "^1.1",
+                "predis/predis": "dev-master",
+                "thobbs/phpcassa": "dev-master"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "~2.8 is required to use DynamoDB storage",
+                "firebase/php-jwt": "~1.1 is required to use MondoDB storage",
+                "predis/predis": "Required to use Redis storage",
+                "thobbs/phpcassa": "Required to use Cassandra storage"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "OAuth2": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Brent Shaffer",
+                    "email": "bshafs@gmail.com",
+                    "homepage": "http://brentertainment.com"
+                }
+            ],
+            "description": "OAuth2 Server for PHP",
+            "homepage": "http://github.com/bshaffer/oauth2-server-php",
+            "keywords": [
+                "auth",
+                "oauth",
+                "oauth2"
+            ],
+            "time": "2017-01-06 23:20:00"
+        },
+        {
+            "name": "container-interop/container-interop",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/container-interop/container-interop.git",
+                "reference": "79cbf1341c22ec75643d841642dd5d6acd83bdb8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/container-interop/container-interop/zipball/79cbf1341c22ec75643d841642dd5d6acd83bdb8",
+                "reference": "79cbf1341c22ec75643d841642dd5d6acd83bdb8",
+                "shasum": ""
+            },
+            "require": {
+                "psr/container": "^1.0"
             },
             "type": "library",
             "autoload": {
@@ -591,7 +651,8 @@
                 "MIT"
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
-            "time": "2014-12-30 15:22:37"
+            "homepage": "https://github.com/container-interop/container-interop",
+            "time": "2017-02-14 19:40:03"
         },
         {
             "name": "paragonie/random_compat",
@@ -686,6 +747,55 @@
                 "dependency injection"
             ],
             "time": "2015-09-11 15:10:35"
+        },
+        {
+            "name": "psr/container",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "time": "2017-02-14 16:28:37"
         },
         {
             "name": "psr/log",
@@ -802,16 +912,16 @@
         },
         {
             "name": "symfony/config",
-            "version": "v2.8.16",
+            "version": "v2.8.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
-                "reference": "4537f2413348fe271c2c4b09da219ed615d79f9c"
+                "reference": "747fa191136cf798409183c501435aa4c16184df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/4537f2413348fe271c2c4b09da219ed615d79f9c",
-                "reference": "4537f2413348fe271c2c4b09da219ed615d79f9c",
+                "url": "https://api.github.com/repos/symfony/config/zipball/747fa191136cf798409183c501435aa4c16184df",
+                "reference": "747fa191136cf798409183c501435aa4c16184df",
                 "shasum": ""
             },
             "require": {
@@ -854,20 +964,20 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-02 20:30:24"
+            "time": "2017-02-05 10:11:19"
         },
         {
             "name": "symfony/console",
-            "version": "v2.8.16",
+            "version": "v2.8.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "2e18b8903d9c498ba02e1dfa73f64d4894bb6912"
+                "reference": "f3c234cd8db9f7e520a91d695db7d8bb5daeb7a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/2e18b8903d9c498ba02e1dfa73f64d4894bb6912",
-                "reference": "2e18b8903d9c498ba02e1dfa73f64d4894bb6912",
+                "url": "https://api.github.com/repos/symfony/console/zipball/f3c234cd8db9f7e520a91d695db7d8bb5daeb7a4",
+                "reference": "f3c234cd8db9f7e520a91d695db7d8bb5daeb7a4",
                 "shasum": ""
             },
             "require": {
@@ -915,7 +1025,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-08 20:43:03"
+            "time": "2017-02-06 12:04:06"
         },
         {
             "name": "symfony/debug",
@@ -1084,16 +1194,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.8.16",
+            "version": "v2.8.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "dbe61fed9cd4a44c5b1d14e5e7b1a8640cfb2bf2"
+                "reference": "322a8c2dfbca15ad6b1b27e182899f98ec0e0153"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/dbe61fed9cd4a44c5b1d14e5e7b1a8640cfb2bf2",
-                "reference": "dbe61fed9cd4a44c5b1d14e5e7b1a8640cfb2bf2",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/322a8c2dfbca15ad6b1b27e182899f98ec0e0153",
+                "reference": "322a8c2dfbca15ad6b1b27e182899f98ec0e0153",
                 "shasum": ""
             },
             "require": {
@@ -1129,7 +1239,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-03 13:49:52"
+            "time": "2017-01-21 16:40:50"
         },
         {
             "name": "zendframework/zend-authentication",
@@ -1665,16 +1775,16 @@
         },
         {
             "name": "zendframework/zend-http",
-            "version": "2.5.5",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-http.git",
-                "reference": "98b1cac0bc7a91497c5898184281abcd0e24c8d6"
+                "reference": "09f4d279f46d86be63171ff62ee0f79eca878678"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-http/zipball/98b1cac0bc7a91497c5898184281abcd0e24c8d6",
-                "reference": "98b1cac0bc7a91497c5898184281abcd0e24c8d6",
+                "url": "https://api.github.com/repos/zendframework/zend-http/zipball/09f4d279f46d86be63171ff62ee0f79eca878678",
+                "reference": "09f4d279f46d86be63171ff62ee0f79eca878678",
                 "shasum": ""
             },
             "require": {
@@ -1685,15 +1795,15 @@
                 "zendframework/zend-validator": "^2.5"
             },
             "require-dev": {
-                "fabpot/php-cs-fixer": "1.7.*",
                 "phpunit/phpunit": "^4.0",
+                "zendframework/zend-coding-standard": "~1.0.0",
                 "zendframework/zend-config": "^2.5"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.5-dev",
-                    "dev-develop": "2.6-dev"
+                    "dev-master": "2.6-dev",
+                    "dev-develop": "2.7-dev"
                 }
             },
             "autoload": {
@@ -1711,7 +1821,7 @@
                 "http",
                 "zf2"
             ],
-            "time": "2016-08-08 15:01:54"
+            "time": "2017-01-31 14:41:02"
         },
         {
             "name": "zendframework/zend-hydrator",
@@ -2064,16 +2174,16 @@
         },
         {
             "name": "zendframework/zend-mail",
-            "version": "2.7.2",
+            "version": "2.7.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-mail.git",
-                "reference": "8210faa6865f94962f9a5c76269703bfdcf2fa4c"
+                "reference": "e92b4bc1cf6fe0fdad571bd7b4af2762414d58ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-mail/zipball/8210faa6865f94962f9a5c76269703bfdcf2fa4c",
-                "reference": "8210faa6865f94962f9a5c76269703bfdcf2fa4c",
+                "url": "https://api.github.com/repos/zendframework/zend-mail/zipball/e92b4bc1cf6fe0fdad571bd7b4af2762414d58ff",
+                "reference": "e92b4bc1cf6fe0fdad571bd7b4af2762414d58ff",
                 "shasum": ""
             },
             "require": {
@@ -2085,7 +2195,7 @@
             },
             "require-dev": {
                 "phpunit/phpunit": "^4.8",
-                "squizlabs/php_codesniffer": "^2.3.1",
+                "zendframework/zend-coding-standard": "~1.0.0",
                 "zendframework/zend-config": "^2.6",
                 "zendframework/zend-crypt": "^2.6",
                 "zendframework/zend-servicemanager": "^2.7.5 || ^3.0.3"
@@ -2120,7 +2230,7 @@
                 "mail",
                 "zf2"
             ],
-            "time": "2016-12-19 22:46:35"
+            "time": "2017-02-14 18:03:34"
         },
         {
             "name": "zendframework/zend-math",
@@ -2801,16 +2911,16 @@
         },
         {
             "name": "zendframework/zend-servicemanager",
-            "version": "3.2.0",
+            "version": "3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-servicemanager.git",
-                "reference": "596a2cde85a92c3366514ae0f55ea32ef59536ac"
+                "reference": "fe608d85457449889750fc6bf8d0859af59f56ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-servicemanager/zipball/596a2cde85a92c3366514ae0f55ea32ef59536ac",
-                "reference": "596a2cde85a92c3366514ae0f55ea32ef59536ac",
+                "url": "https://api.github.com/repos/zendframework/zend-servicemanager/zipball/fe608d85457449889750fc6bf8d0859af59f56ec",
+                "reference": "fe608d85457449889750fc6bf8d0859af59f56ec",
                 "shasum": ""
             },
             "require": {
@@ -2825,7 +2935,7 @@
                 "mikey179/vfsstream": "^1.6",
                 "ocramius/proxy-manager": "^1.0 || ^2.0",
                 "phpbench/phpbench": "^0.10.0",
-                "phpunit/phpunit": "^4.6 || ^5.2.10",
+                "phpunit/phpunit": "^5.7 || ^6.0.6",
                 "zendframework/zend-coding-standard": "~1.0.0"
             },
             "suggest": {
@@ -2858,7 +2968,7 @@
                 "servicemanager",
                 "zf"
             ],
-            "time": "2016-12-19 20:04:51"
+            "time": "2017-02-15 15:29:48"
         },
         {
             "name": "zendframework/zend-session",
@@ -3020,16 +3130,16 @@
         },
         {
             "name": "zendframework/zend-validator",
-            "version": "2.8.1",
+            "version": "2.8.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-validator.git",
-                "reference": "8ec9f57a717dd37340308aa632f148a2c2be1cfc"
+                "reference": "99b528e01276054458da9553b587cfb959dfa436"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-validator/zipball/8ec9f57a717dd37340308aa632f148a2c2be1cfc",
-                "reference": "8ec9f57a717dd37340308aa632f148a2c2be1cfc",
+                "url": "https://api.github.com/repos/zendframework/zend-validator/zipball/99b528e01276054458da9553b587cfb959dfa436",
+                "reference": "99b528e01276054458da9553b587cfb959dfa436",
                 "shasum": ""
             },
             "require": {
@@ -3087,7 +3197,7 @@
                 "validator",
                 "zf2"
             ],
-            "time": "2016-06-23 13:44:31"
+            "time": "2017-01-29 17:24:24"
         },
         {
             "name": "zendframework/zend-view",
@@ -4088,16 +4198,16 @@
         },
         {
             "name": "symfony/browser-kit",
-            "version": "v2.8.16",
+            "version": "v2.8.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/browser-kit.git",
-                "reference": "d2a5de15c8341a470a66becf4597bc675686a72b"
+                "reference": "f8fd9fe2341e191111a97a295ac061b4be7f7aec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/browser-kit/zipball/d2a5de15c8341a470a66becf4597bc675686a72b",
-                "reference": "d2a5de15c8341a470a66becf4597bc675686a72b",
+                "url": "https://api.github.com/repos/symfony/browser-kit/zipball/f8fd9fe2341e191111a97a295ac061b4be7f7aec",
+                "reference": "f8fd9fe2341e191111a97a295ac061b4be7f7aec",
                 "shasum": ""
             },
             "require": {
@@ -4141,11 +4251,11 @@
             ],
             "description": "Symfony BrowserKit Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-02 20:30:24"
+            "time": "2017-01-31 21:48:58"
         },
         {
             "name": "symfony/css-selector",
-            "version": "v2.8.16",
+            "version": "v2.8.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
@@ -4198,16 +4308,16 @@
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v2.8.16",
+            "version": "v2.8.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "b75356611675364607d697f314850d9d870a84aa"
+                "reference": "1dfbf6a9e30113a9c4e482ab056e969c70c37a19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/b75356611675364607d697f314850d9d870a84aa",
-                "reference": "b75356611675364607d697f314850d9d870a84aa",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/1dfbf6a9e30113a9c4e482ab056e969c70c37a19",
+                "reference": "1dfbf6a9e30113a9c4e482ab056e969c70c37a19",
                 "shasum": ""
             },
             "require": {
@@ -4257,20 +4367,20 @@
             ],
             "description": "Symfony DependencyInjection Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-10 14:27:01"
+            "time": "2017-01-27 23:54:58"
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "v2.8.16",
+            "version": "v2.8.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
-                "reference": "52cc211afa9458c0a54c478010a55f44892c1c02"
+                "reference": "6225d65e001b3f03f63d43e302a26314f8e1e6fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/52cc211afa9458c0a54c478010a55f44892c1c02",
-                "reference": "52cc211afa9458c0a54c478010a55f44892c1c02",
+                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/6225d65e001b3f03f63d43e302a26314f8e1e6fe",
+                "reference": "6225d65e001b3f03f63d43e302a26314f8e1e6fe",
                 "shasum": ""
             },
             "require": {
@@ -4313,11 +4423,11 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-02 20:30:24"
+            "time": "2017-01-21 16:40:50"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v2.8.16",
+            "version": "v2.8.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
@@ -4377,7 +4487,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v2.8.16",
+            "version": "v2.8.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -4426,16 +4536,16 @@
         },
         {
             "name": "symfony/process",
-            "version": "v2.8.16",
+            "version": "v2.8.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "ebb3c2abe0940a703f08e0cbe373f62d97d40231"
+                "reference": "0110ac49348d14eced7d3278ea7485f22196932e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/ebb3c2abe0940a703f08e0cbe373f62d97d40231",
-                "reference": "ebb3c2abe0940a703f08e0cbe373f62d97d40231",
+                "url": "https://api.github.com/repos/symfony/process/zipball/0110ac49348d14eced7d3278ea7485f22196932e",
+                "reference": "0110ac49348d14eced7d3278ea7485f22196932e",
                 "shasum": ""
             },
             "require": {
@@ -4471,20 +4581,20 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-02 20:30:24"
+            "time": "2017-02-03 12:08:06"
         },
         {
             "name": "symfony/translation",
-            "version": "v2.8.16",
+            "version": "v2.8.17",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "b4ac4a393f6970cc157fba17be537380de396a86"
+                "reference": "c281ac2b484210bb95106bdb8ae8356e63277725"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/b4ac4a393f6970cc157fba17be537380de396a86",
-                "reference": "b4ac4a393f6970cc157fba17be537380de396a86",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/c281ac2b484210bb95106bdb8ae8356e63277725",
+                "reference": "c281ac2b484210bb95106bdb8ae8356e63277725",
                 "shasum": ""
             },
             "require": {
@@ -4535,7 +4645,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-02 20:30:24"
+            "time": "2017-01-21 16:59:38"
         },
         {
             "name": "zendframework/zend-component-installer",
@@ -4757,9 +4867,81 @@
             "time": "2017-01-09 23:34:49"
         }
     ],
-    "aliases": [],
+    "aliases": [
+        {
+            "alias": "1.9",
+            "alias_normalized": "1.9.0.0",
+            "version": "dev-rest-api",
+            "package": "boxspaced/cms-account-module"
+        },
+        {
+            "alias": "1.9",
+            "alias_normalized": "1.9.0.0",
+            "version": "dev-rest-api",
+            "package": "boxspaced/cms-asset-module"
+        },
+        {
+            "alias": "1.9",
+            "alias_normalized": "1.9.0.0",
+            "version": "dev-rest-api",
+            "package": "boxspaced/cms-block-module"
+        },
+        {
+            "alias": "1.9",
+            "alias_normalized": "1.9.0.0",
+            "version": "dev-rest-api",
+            "package": "boxspaced/cms-helpdesk-module"
+        },
+        {
+            "alias": "1.9",
+            "alias_normalized": "1.9.0.0",
+            "version": "dev-rest-api",
+            "package": "boxspaced/cms-item-module"
+        },
+        {
+            "alias": "1.9",
+            "alias_normalized": "1.9.0.0",
+            "version": "dev-rest-api",
+            "package": "boxspaced/cms-menu-module"
+        },
+        {
+            "alias": "1.9",
+            "alias_normalized": "1.9.0.0",
+            "version": "dev-rest-api",
+            "package": "boxspaced/cms-search-module"
+        },
+        {
+            "alias": "1.9",
+            "alias_normalized": "1.9.0.0",
+            "version": "dev-rest-api",
+            "package": "boxspaced/cms-standalone-module"
+        },
+        {
+            "alias": "1.9",
+            "alias_normalized": "1.9.0.0",
+            "version": "dev-rest-api",
+            "package": "boxspaced/cms-workflow-module"
+        },
+        {
+            "alias": "1.9",
+            "alias_normalized": "1.9.0.0",
+            "version": "dev-rest-api",
+            "package": "boxspaced/cms-core-module"
+        }
+    ],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "boxspaced/cms-account-module": 20,
+        "boxspaced/cms-asset-module": 20,
+        "boxspaced/cms-block-module": 20,
+        "boxspaced/cms-helpdesk-module": 20,
+        "boxspaced/cms-item-module": 20,
+        "boxspaced/cms-menu-module": 20,
+        "boxspaced/cms-search-module": 20,
+        "boxspaced/cms-standalone-module": 20,
+        "boxspaced/cms-workflow-module": 20,
+        "boxspaced/cms-core-module": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

@@ -55,9 +55,6 @@ return [
         'hostname' => '',
         'email' => '',
     ],
-    'account' => [
-        'password_hashing_algorithm' => '',
-    ],
     'helpdesk' => [
         'managers' => [
             '',

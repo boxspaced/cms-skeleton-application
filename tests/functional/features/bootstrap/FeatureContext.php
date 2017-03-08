@@ -101,8 +101,8 @@ class FeatureContext extends BehatContext
             return;
         }
 
-        $this->getMinkContext()->visitPage('/account/logout');
-        $this->getMinkContext()->visitPage('/account/login');
+        $this->getMinkContext()->visitPage('/auth/logout');
+        $this->getMinkContext()->visitPage('/auth/login');
         $this->getMinkContext()->fillField('username', $username);
         $this->getMinkContext()->fillField('password', 'password');
         $this->getMinkContext()->pressButton('Login');
@@ -121,7 +121,7 @@ class FeatureContext extends BehatContext
             return;
         }
 
-        $this->getMinkContext()->visitPage('/account/logout');
+        $this->getMinkContext()->visitPage('/auth/logout');
         $this->setLoggedInAs(null);
     }
 

@@ -3,17 +3,19 @@
     "require": {
         "robmorgan/phinx": "0.6.4",
         "zendframework/zend-mvc-i18n": "^1.0",
-        "boxspaced/cms-account-module": "^1.0",
-        "boxspaced/cms-asset-module": "^1.0",
-        "boxspaced/cms-block-module": "^1.0",
-        "boxspaced/cms-helpdesk-module": "^1.0",
-        "boxspaced/cms-item-module": "^1.0",
-        "boxspaced/cms-menu-module": "^1.0",
-        "boxspaced/cms-search-module": "^1.0",
+        "boxspaced/cms-account-module": "dev-rest-api as 1.9",
+        "boxspaced/cms-asset-module": "dev-rest-api as 1.9",
+        "boxspaced/cms-block-module": "dev-rest-api as 1.9",
+        "boxspaced/cms-helpdesk-module": "dev-rest-api as 1.9",
+        "boxspaced/cms-item-module": "dev-rest-api as 1.9",
+        "boxspaced/cms-menu-module": "dev-rest-api as 1.9",
+        "boxspaced/cms-search-module": "dev-rest-api as 1.9",
         "boxspaced/cms-slug-module": "^1.0",
-        "boxspaced/cms-standalone-module": "^1.0",
+        "boxspaced/cms-standalone-module": "dev-rest-api as 1.9",
         "boxspaced/cms-versioning-module": "^1.0",
-        "boxspaced/cms-workflow-module": "^1.0"
+        "boxspaced/cms-workflow-module": "dev-rest-api as 1.9",
+
+        "boxspaced/cms-core-module": "dev-rest-api as 1.9"
     },
     "require-dev": {
         "phing/phing": "^2.14",

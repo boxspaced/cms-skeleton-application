@@ -61,9 +61,6 @@ return [
         'hostname' => 'www.cms.dev',
         'email' => 'admin@cms.dev',
     ],
-    'account' => [
-        'password_hashing_algorithm' => 'SHA256', // @todo remove now PHP password hashing functions are used
-    ],
     'helpdesk' => [
         'managers' => [
             'support@cms.dev',
