@@ -43,8 +43,6 @@
 
     <target name="create-log-files" description="Create log files">
         <touch file="${project.basedir}/data/logs/application.log" />
-        <chown file="${project.basedir}/data/logs/application.log" group="${webserver.group}" />
-        <chmod file="${project.basedir}/data/logs/application.log" mode="0664" />
     </target>
 
     <target name="create-dirs" description="Create directories needed for uploads etc.">
@@ -78,6 +76,8 @@
         <chmod file="${project.basedir}/data/cache" mode="0775" />
         <chmod file="${project.basedir}/data/indexes" mode="0775" />
         <chmod file="${project.basedir}/data/logs" mode="0775" />
+        <chown file="${project.basedir}/data/logs/application.log" group="${webserver.group}" />
+        <chmod file="${project.basedir}/data/logs/application.log" mode="0664" />
     </target>
 
     <target name="install-js-libs" description="Install Javascript libraries">
