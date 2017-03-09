@@ -42,7 +42,7 @@
     </target>
 
     <target name="create-log-files" description="Create log files">
-        <touch dir="${project.basedir}/data/logs/application.log" />
+        <touch file="${project.basedir}/data/logs/application.log" />
         <chown file="${project.basedir}/data/logs/application.log" group="${webserver.group}" />
         <chmod file="${project.basedir}/data/logs/application.log" mode="0664" />
     </target>
