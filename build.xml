@@ -19,6 +19,7 @@
 
     <target name="build" depends="init" description="Build the project">
         <phingcall target="create-dirs" />
+        <phingcall target="create-log-files" />
         <phingcall target="install-js-libs" />
         <phingcall target="db-create" />
         <phingcall target="db-migrate-up" />
@@ -40,6 +41,12 @@
         <phingcall target="db-migrate-up" />
     </target>
 
+    <target name="create-log-files" description="Create log files">
+        <touch dir="${project.basedir}/data/logs/application.log" />
+        <chown file="${project.basedir}/data/logs/application.log" group="${webserver.group}" />
+        <chmod file="${project.basedir}/data/logs/application.log" mode="0664" />
+    </target>
+
     <target name="create-dirs" description="Create directories needed for uploads etc.">
         <mkdir dir="${project.basedir}/public/assets/documents" />
         <mkdir dir="${project.basedir}/public/assets/flash" />
@@ -52,17 +59,7 @@
         <mkdir dir="${project.basedir}/data/logs" />
     </target>
 
-    <!-- @todo this needs to be run as sudo -->
-    <target name="dir-permissions" description="Set permissions on the directories managed by Apache">
-        <chmod file="${project.basedir}/public/assets/documents" mode="0775" />
-        <chmod file="${project.basedir}/public/assets/flash" mode="0775" />
-        <chmod file="${project.basedir}/public/assets/images" mode="0775" />
-        <chmod file="${project.basedir}/public/assets/media" mode="0775" />
-        <chmod file="${project.basedir}/public/assets/_thumbs" mode="0775" />
-        <chmod file="${project.basedir}/private/helpdesk_attachments" mode="0775" />
-        <chmod file="${project.basedir}/data/cache" mode="0775" />
-        <chmod file="${project.basedir}/data/indexes" mode="0775" />
-        <chmod file="${project.basedir}/data/logs" mode="0775" />
+    <target name="set-permissions" description="Set permissions on the directories managed by the web server">
         <chown file="${project.basedir}/public/assets/documents" group="${webserver.group}" />
         <chown file="${project.basedir}/public/assets/flash" group="${webserver.group}" />
         <chown file="${project.basedir}/public/assets/images" group="${webserver.group}" />
@@ -72,6 +69,15 @@
         <chown file="${project.basedir}/data/cache" group="${webserver.group}" />
         <chown file="${project.basedir}/data/indexes" group="${webserver.group}" />
         <chown file="${project.basedir}/data/logs" group="${webserver.group}" />
+        <chmod file="${project.basedir}/public/assets/documents" mode="0775" />
+        <chmod file="${project.basedir}/public/assets/flash" mode="0775" />
+        <chmod file="${project.basedir}/public/assets/images" mode="0775" />
+        <chmod file="${project.basedir}/public/assets/media" mode="0775" />
+        <chmod file="${project.basedir}/public/assets/_thumbs" mode="0775" />
+        <chmod file="${project.basedir}/private/helpdesk_attachments" mode="0775" />
+        <chmod file="${project.basedir}/data/cache" mode="0775" />
+        <chmod file="${project.basedir}/data/indexes" mode="0775" />
+        <chmod file="${project.basedir}/data/logs" mode="0775" />
     </target>
 
     <target name="install-js-libs" description="Install Javascript libraries">
@@ -86,7 +92,6 @@
         <delete file="${server.tmpdir}/yui_${yui.version}.zip" />
     </target>
 
-    <!-- @todo this needs to be run as sudo -->
     <target name="install-cronjobs" description="Install cronjobs to the /etc/cron.d directory">
         <delete>
             <fileset dir="/etc/cron.d/">
