@@ -20,7 +20,6 @@
     <target name="build" depends="init" description="Build the project">
         <phingcall target="create-dirs" />
         <phingcall target="install-js-libs" />
-        <phingcall target="install-cronjobs" />
         <phingcall target="db-create" />
         <phingcall target="db-migrate-up" />
         <phingcall target="prepare" />
@@ -41,18 +40,29 @@
         <phingcall target="db-migrate-up" />
     </target>
 
-    <target name="create-dirs" description="Create directories whose contents are managed by Apache">
+    <target name="create-dirs" description="Create directories needed for uploads etc.">
+        <mkdir dir="${project.basedir}/public/assets/documents" />
+        <mkdir dir="${project.basedir}/public/assets/flash" />
+        <mkdir dir="${project.basedir}/public/assets/images" />
+        <mkdir dir="${project.basedir}/public/assets/media" />
+        <mkdir dir="${project.basedir}/public/assets/_thumbs" />
+        <mkdir dir="${project.basedir}/private/helpdesk_attachments" />
+        <mkdir dir="${project.basedir}/data/cache" />
+        <mkdir dir="${project.basedir}/data/indexes" />
+        <mkdir dir="${project.basedir}/data/logs" />
+    </target>
 
-        <mkdir dir="${project.basedir}/public/assets/documents" mode="0775" />
-        <mkdir dir="${project.basedir}/public/assets/flash" mode="0775" />
-        <mkdir dir="${project.basedir}/public/assets/images" mode="0775" />
-        <mkdir dir="${project.basedir}/public/assets/media" mode="0775" />
-        <mkdir dir="${project.basedir}/public/assets/_thumbs" mode="0775" />
-        <mkdir dir="${project.basedir}/private/helpdesk_attachments" mode="0775" />
-        <mkdir dir="${project.basedir}/data/cache" mode="0775" />
-        <mkdir dir="${project.basedir}/data/indexes" mode="0775" />
-        <mkdir dir="${project.basedir}/data/logs" mode="0775" />
-
+    <!-- @todo this needs to be run as sudo -->
+    <target name="dir-permissions" description="Set permissions on the directories managed by Apache">
+        <chmod file="${project.basedir}/public/assets/documents" mode="0775" />
+        <chmod file="${project.basedir}/public/assets/flash" mode="0775" />
+        <chmod file="${project.basedir}/public/assets/images" mode="0775" />
+        <chmod file="${project.basedir}/public/assets/media" mode="0775" />
+        <chmod file="${project.basedir}/public/assets/_thumbs" mode="0775" />
+        <chmod file="${project.basedir}/private/helpdesk_attachments" mode="0775" />
+        <chmod file="${project.basedir}/data/cache" mode="0775" />
+        <chmod file="${project.basedir}/data/indexes" mode="0775" />
+        <chmod file="${project.basedir}/data/logs" mode="0775" />
         <chown file="${project.basedir}/public/assets/documents" group="${webserver.group}" />
         <chown file="${project.basedir}/public/assets/flash" group="${webserver.group}" />
         <chown file="${project.basedir}/public/assets/images" group="${webserver.group}" />
