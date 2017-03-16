@@ -82,12 +82,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxspaced/cms-block-module.git",
-                "reference": "03960dc378caf01092ef387d5c7c0a9786663096"
+                "reference": "6f78514c95bb83c3d103261e172fdc778bab9edc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxspaced/cms-block-module/zipball/03960dc378caf01092ef387d5c7c0a9786663096",
-                "reference": "03960dc378caf01092ef387d5c7c0a9786663096",
+                "url": "https://api.github.com/repos/boxspaced/cms-block-module/zipball/6f78514c95bb83c3d103261e172fdc778bab9edc",
+                "reference": "6f78514c95bb83c3d103261e172fdc778bab9edc",
                 "shasum": ""
             },
             "require": {
@@ -108,7 +108,7 @@
                 "source": "https://github.com/boxspaced/cms-block-module/tree/rest-api",
                 "issues": "https://github.com/boxspaced/cms-block-module/issues"
             },
-            "time": "2017-02-14 18:22:52"
+            "time": "2017-03-16 13:18:34"
         },
         {
             "name": "boxspaced/cms-core-module",
@@ -116,12 +116,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxspaced/cms-core-module.git",
-                "reference": "32bb017bc60cb31ef9fe07df0ba04d4d5460af58"
+                "reference": "a0ec193bbdbd3a8d3ff30d2039da9281d6ae4aaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxspaced/cms-core-module/zipball/32bb017bc60cb31ef9fe07df0ba04d4d5460af58",
-                "reference": "32bb017bc60cb31ef9fe07df0ba04d4d5460af58",
+                "url": "https://api.github.com/repos/boxspaced/cms-core-module/zipball/a0ec193bbdbd3a8d3ff30d2039da9281d6ae4aaf",
+                "reference": "a0ec193bbdbd3a8d3ff30d2039da9281d6ae4aaf",
                 "shasum": ""
             },
             "require": {
@@ -169,7 +169,7 @@
                 "source": "https://github.com/boxspaced/cms-core-module/tree/rest-api",
                 "issues": "https://github.com/boxspaced/cms-core-module/issues"
             },
-            "time": "2017-02-17 20:44:06"
+            "time": "2017-03-16 14:24:56"
         },
         {
             "name": "boxspaced/cms-helpdesk-module",
@@ -177,12 +177,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxspaced/cms-helpdesk-module.git",
-                "reference": "462aca229faa62729cc6aaeacf0b90e1a1e29ba3"
+                "reference": "a39a9ac34b92c38216fdbcba4efdb28fcb796e38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxspaced/cms-helpdesk-module/zipball/462aca229faa62729cc6aaeacf0b90e1a1e29ba3",
-                "reference": "462aca229faa62729cc6aaeacf0b90e1a1e29ba3",
+                "url": "https://api.github.com/repos/boxspaced/cms-helpdesk-module/zipball/a39a9ac34b92c38216fdbcba4efdb28fcb796e38",
+                "reference": "a39a9ac34b92c38216fdbcba4efdb28fcb796e38",
                 "shasum": ""
             },
             "require": {
@@ -203,7 +203,7 @@
                 "source": "https://github.com/boxspaced/cms-helpdesk-module/tree/rest-api",
                 "issues": "https://github.com/boxspaced/cms-helpdesk-module/issues"
             },
-            "time": "2017-02-14 18:23:30"
+            "time": "2017-03-16 13:19:02"
         },
         {
             "name": "boxspaced/cms-item-module",
@@ -211,12 +211,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxspaced/cms-item-module.git",
-                "reference": "4f90042d47492dde4ef75c61acc1976ae2255fb1"
+                "reference": "a57ed0841261a007294417ae631135c11d7f2b89"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxspaced/cms-item-module/zipball/4f90042d47492dde4ef75c61acc1976ae2255fb1",
-                "reference": "4f90042d47492dde4ef75c61acc1976ae2255fb1",
+                "url": "https://api.github.com/repos/boxspaced/cms-item-module/zipball/a57ed0841261a007294417ae631135c11d7f2b89",
+                "reference": "a57ed0841261a007294417ae631135c11d7f2b89",
                 "shasum": ""
             },
             "require": {
@@ -237,7 +237,7 @@
                 "source": "https://github.com/boxspaced/cms-item-module/tree/rest-api",
                 "issues": "https://github.com/boxspaced/cms-item-module/issues"
             },
-            "time": "2017-02-17 18:18:46"
+            "time": "2017-03-16 14:25:04"
         },
         {
             "name": "boxspaced/cms-menu-module",
@@ -245,12 +245,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxspaced/cms-menu-module.git",
-                "reference": "22de0cd0c3a97543e6b564e5550375cce07f356d"
+                "reference": "da47ce99acda7498c6b8b6ab3edc75aebcad5f60"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxspaced/cms-menu-module/zipball/22de0cd0c3a97543e6b564e5550375cce07f356d",
-                "reference": "22de0cd0c3a97543e6b564e5550375cce07f356d",
+                "url": "https://api.github.com/repos/boxspaced/cms-menu-module/zipball/da47ce99acda7498c6b8b6ab3edc75aebcad5f60",
+                "reference": "da47ce99acda7498c6b8b6ab3edc75aebcad5f60",
                 "shasum": ""
             },
             "require": {
@@ -272,7 +272,7 @@
                 "source": "https://github.com/boxspaced/cms-menu-module/tree/rest-api",
                 "issues": "https://github.com/boxspaced/cms-menu-module/issues"
             },
-            "time": "2017-02-14 18:23:42"
+            "time": "2017-03-16 13:19:12"
         },
         {
             "name": "boxspaced/cms-search-module",
@@ -280,12 +280,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxspaced/cms-search-module.git",
-                "reference": "8663b18830f028e91db5e159162d288e5b814930"
+                "reference": "1645776b17f0a399d9b9e0c28dab944fb62d8847"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxspaced/cms-search-module/zipball/8663b18830f028e91db5e159162d288e5b814930",
-                "reference": "8663b18830f028e91db5e159162d288e5b814930",
+                "url": "https://api.github.com/repos/boxspaced/cms-search-module/zipball/1645776b17f0a399d9b9e0c28dab944fb62d8847",
+                "reference": "1645776b17f0a399d9b9e0c28dab944fb62d8847",
                 "shasum": ""
             },
             "require": {
@@ -309,7 +309,7 @@
                 "source": "https://github.com/boxspaced/cms-search-module/tree/rest-api",
                 "issues": "https://github.com/boxspaced/cms-search-module/issues"
             },
-            "time": "2017-02-14 18:23:51"
+            "time": "2017-03-16 13:19:19"
         },
         {
             "name": "boxspaced/cms-slug-module",
@@ -351,12 +351,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxspaced/cms-standalone-module.git",
-                "reference": "db54a05e71564cc471fef491bc7cdb9466238064"
+                "reference": "894d2e7155749c79346e5c91f9c1a45274d107da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxspaced/cms-standalone-module/zipball/db54a05e71564cc471fef491bc7cdb9466238064",
-                "reference": "db54a05e71564cc471fef491bc7cdb9466238064",
+                "url": "https://api.github.com/repos/boxspaced/cms-standalone-module/zipball/894d2e7155749c79346e5c91f9c1a45274d107da",
+                "reference": "894d2e7155749c79346e5c91f9c1a45274d107da",
                 "shasum": ""
             },
             "require": {
@@ -377,7 +377,7 @@
                 "source": "https://github.com/boxspaced/cms-standalone-module/tree/rest-api",
                 "issues": "https://github.com/boxspaced/cms-standalone-module/issues"
             },
-            "time": "2017-02-14 18:23:57"
+            "time": "2017-03-16 13:19:32"
         },
         {
             "name": "boxspaced/cms-versioning-module",
@@ -419,12 +419,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/boxspaced/cms-workflow-module.git",
-                "reference": "d57e7e8a9b52bacadeb646cdc13992c698ceac3a"
+                "reference": "2710949b1e1c67c8a0b970db870672999669e5a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boxspaced/cms-workflow-module/zipball/d57e7e8a9b52bacadeb646cdc13992c698ceac3a",
-                "reference": "d57e7e8a9b52bacadeb646cdc13992c698ceac3a",
+                "url": "https://api.github.com/repos/boxspaced/cms-workflow-module/zipball/2710949b1e1c67c8a0b970db870672999669e5a9",
+                "reference": "2710949b1e1c67c8a0b970db870672999669e5a9",
                 "shasum": ""
             },
             "require": {
@@ -445,7 +445,7 @@
                 "source": "https://github.com/boxspaced/cms-workflow-module/tree/rest-api",
                 "issues": "https://github.com/boxspaced/cms-workflow-module/issues"
             },
-            "time": "2017-02-14 18:41:49"
+            "time": "2017-03-16 13:19:47"
         },
         {
             "name": "boxspaced/entity-manager",
@@ -656,16 +656,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.4",
+            "version": "v2.0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "a9b97968bcde1c4de2a5ec6cbd06a0f6c919b46e"
+                "reference": "634bae8e911eefa89c1abfbf1b66da679ac8f54d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/a9b97968bcde1c4de2a5ec6cbd06a0f6c919b46e",
-                "reference": "a9b97968bcde1c4de2a5ec6cbd06a0f6c919b46e",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/634bae8e911eefa89c1abfbf1b66da679ac8f54d",
+                "reference": "634bae8e911eefa89c1abfbf1b66da679ac8f54d",
                 "shasum": ""
             },
             "require": {
@@ -700,7 +700,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2016-11-07 23:38:38"
+            "time": "2017-03-13 16:27:32"
         },
         {
             "name": "pimple/pimple",
@@ -912,16 +912,16 @@
         },
         {
             "name": "symfony/config",
-            "version": "v2.8.17",
+            "version": "v2.8.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
-                "reference": "747fa191136cf798409183c501435aa4c16184df"
+                "reference": "06ce6bb46c24963ec09323da45d0f4f85d3cecd2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/747fa191136cf798409183c501435aa4c16184df",
-                "reference": "747fa191136cf798409183c501435aa4c16184df",
+                "url": "https://api.github.com/repos/symfony/config/zipball/06ce6bb46c24963ec09323da45d0f4f85d3cecd2",
+                "reference": "06ce6bb46c24963ec09323da45d0f4f85d3cecd2",
                 "shasum": ""
             },
             "require": {
@@ -964,25 +964,25 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-05 10:11:19"
+            "time": "2017-03-01 18:13:50"
         },
         {
             "name": "symfony/console",
-            "version": "v2.8.17",
+            "version": "v2.8.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "f3c234cd8db9f7e520a91d695db7d8bb5daeb7a4"
+                "reference": "81508e6fac4476771275a3f4f53c3fee9b956bfa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/f3c234cd8db9f7e520a91d695db7d8bb5daeb7a4",
-                "reference": "f3c234cd8db9f7e520a91d695db7d8bb5daeb7a4",
+                "url": "https://api.github.com/repos/symfony/console/zipball/81508e6fac4476771275a3f4f53c3fee9b956bfa",
+                "reference": "81508e6fac4476771275a3f4f53c3fee9b956bfa",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9",
-                "symfony/debug": "~2.7,>=2.7.2|~3.0.0",
+                "symfony/debug": "^2.7.2|~3.0.0",
                 "symfony/polyfill-mbstring": "~1.0"
             },
             "require-dev": {
@@ -1025,7 +1025,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-06 12:04:06"
+            "time": "2017-03-04 11:00:12"
         },
         {
             "name": "symfony/debug",
@@ -1194,16 +1194,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.8.17",
+            "version": "v2.8.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "322a8c2dfbca15ad6b1b27e182899f98ec0e0153"
+                "reference": "2a7bab3c16f6f452c47818fdd08f3b1e49ffcf7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/322a8c2dfbca15ad6b1b27e182899f98ec0e0153",
-                "reference": "322a8c2dfbca15ad6b1b27e182899f98ec0e0153",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/2a7bab3c16f6f452c47818fdd08f3b1e49ffcf7d",
+                "reference": "2a7bab3c16f6f452c47818fdd08f3b1e49ffcf7d",
                 "shasum": ""
             },
             "require": {
@@ -1239,7 +1239,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-21 16:40:50"
+            "time": "2017-03-01 18:13:50"
         },
         {
             "name": "zendframework/zend-authentication",
@@ -1698,16 +1698,16 @@
         },
         {
             "name": "zendframework/zend-form",
-            "version": "2.9.2",
+            "version": "2.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-form.git",
-                "reference": "2d076100e4c6a779b7676d098192e3d1cf74f34e"
+                "reference": "ca2b2f9e1bdc5511d06967d755cbb793708a2d7b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-form/zipball/2d076100e4c6a779b7676d098192e3d1cf74f34e",
-                "reference": "2d076100e4c6a779b7676d098192e3d1cf74f34e",
+                "url": "https://api.github.com/repos/zendframework/zend-form/zipball/ca2b2f9e1bdc5511d06967d755cbb793708a2d7b",
+                "reference": "ca2b2f9e1bdc5511d06967d755cbb793708a2d7b",
                 "shasum": ""
             },
             "require": {
@@ -1718,11 +1718,11 @@
             },
             "require-dev": {
                 "doctrine/annotations": "~1.0",
-                "fabpot/php-cs-fixer": "1.7.*",
                 "phpunit/phpunit": "^4.8",
                 "zendframework/zend-cache": "^2.6.1",
-                "zendframework/zend-captcha": "^2.5.4",
+                "zendframework/zend-captcha": "^2.7.1",
                 "zendframework/zend-code": "^2.6 || ^3.0",
+                "zendframework/zend-coding-standard": "~1.0.0",
                 "zendframework/zend-escaper": "^2.5",
                 "zendframework/zend-eventmanager": "^2.6.2 || ^3.0",
                 "zendframework/zend-filter": "^2.6",
@@ -1732,10 +1732,10 @@
                 "zendframework/zend-text": "^2.6",
                 "zendframework/zend-validator": "^2.6",
                 "zendframework/zend-view": "^2.6.2",
-                "zendframework/zendservice-recaptcha": "*"
+                "zendframework/zendservice-recaptcha": "^3.0.0"
             },
             "suggest": {
-                "zendframework/zend-captcha": "^2.5.4, required for using CAPTCHA form elements",
+                "zendframework/zend-captcha": "^2.7.1, required for using CAPTCHA form elements",
                 "zendframework/zend-code": "^2.6 || ^3.0, required to use zend-form annotations support",
                 "zendframework/zend-eventmanager": "^2.6.2 || ^3.0, reuired for zend-form annotations support",
                 "zendframework/zend-i18n": "^2.6, required when using zend-form view helpers",
@@ -1746,8 +1746,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.9-dev",
-                    "dev-develop": "2.10-dev"
+                    "dev-master": "2.10-dev",
+                    "dev-develop": "2.11-dev"
                 },
                 "zf": {
                     "component": "Zend\\Form",
@@ -1771,7 +1771,7 @@
                 "form",
                 "zf2"
             ],
-            "time": "2016-09-22 15:56:15"
+            "time": "2017-02-23 16:03:25"
         },
         {
             "name": "zendframework/zend-http",
@@ -2911,25 +2911,27 @@
         },
         {
             "name": "zendframework/zend-servicemanager",
-            "version": "3.2.1",
+            "version": "3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-servicemanager.git",
-                "reference": "fe608d85457449889750fc6bf8d0859af59f56ec"
+                "reference": "c3036efb81f71bfa36cc9962ee5d4474f36581d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-servicemanager/zipball/fe608d85457449889750fc6bf8d0859af59f56ec",
-                "reference": "fe608d85457449889750fc6bf8d0859af59f56ec",
+                "url": "https://api.github.com/repos/zendframework/zend-servicemanager/zipball/c3036efb81f71bfa36cc9962ee5d4474f36581d0",
+                "reference": "c3036efb81f71bfa36cc9962ee5d4474f36581d0",
                 "shasum": ""
             },
             "require": {
-                "container-interop/container-interop": "~1.0",
+                "container-interop/container-interop": "^1.2",
                 "php": "^5.6 || ^7.0",
+                "psr/container": "^1.0",
                 "zendframework/zend-stdlib": "^3.1"
             },
             "provide": {
-                "container-interop/container-interop-implementation": "^1.1"
+                "container-interop/container-interop-implementation": "^1.2",
+                "psr/container-implementation": "^1.0"
             },
             "require-dev": {
                 "mikey179/vfsstream": "^1.6",
@@ -2949,8 +2951,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.2-dev",
-                    "dev-develop": "3.3-dev"
+                    "dev-master": "3.3-dev",
+                    "dev-develop": "3.4-dev"
                 }
             },
             "autoload": {
@@ -2968,7 +2970,7 @@
                 "servicemanager",
                 "zf"
             ],
-            "time": "2017-02-15 15:29:48"
+            "time": "2017-03-01 22:08:02"
         },
         {
             "name": "zendframework/zend-session",
@@ -4198,16 +4200,16 @@
         },
         {
             "name": "symfony/browser-kit",
-            "version": "v2.8.17",
+            "version": "v2.8.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/browser-kit.git",
-                "reference": "f8fd9fe2341e191111a97a295ac061b4be7f7aec"
+                "reference": "8827db04bcd8d9b9bf3114ea41081d8036ab209c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/browser-kit/zipball/f8fd9fe2341e191111a97a295ac061b4be7f7aec",
-                "reference": "f8fd9fe2341e191111a97a295ac061b4be7f7aec",
+                "url": "https://api.github.com/repos/symfony/browser-kit/zipball/8827db04bcd8d9b9bf3114ea41081d8036ab209c",
+                "reference": "8827db04bcd8d9b9bf3114ea41081d8036ab209c",
                 "shasum": ""
             },
             "require": {
@@ -4215,8 +4217,8 @@
                 "symfony/dom-crawler": "~2.1|~3.0.0"
             },
             "require-dev": {
-                "symfony/css-selector": "~2.0,>=2.0.5|~3.0.0",
-                "symfony/process": "~2.3.34|~2.7,>=2.7.6|~3.0.0"
+                "symfony/css-selector": "^2.0.5|~3.0.0",
+                "symfony/process": "~2.3.34|^2.7.6|~3.0.0"
             },
             "suggest": {
                 "symfony/process": ""
@@ -4251,20 +4253,20 @@
             ],
             "description": "Symfony BrowserKit Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-31 21:48:58"
+            "time": "2017-02-21 08:33:48"
         },
         {
             "name": "symfony/css-selector",
-            "version": "v2.8.17",
+            "version": "v2.8.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
-                "reference": "f45daea42232d9ca5cf561ec64f0d4aea820877f"
+                "reference": "742bd688bd778dde8991ba696cb372570610afcd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/css-selector/zipball/f45daea42232d9ca5cf561ec64f0d4aea820877f",
-                "reference": "f45daea42232d9ca5cf561ec64f0d4aea820877f",
+                "url": "https://api.github.com/repos/symfony/css-selector/zipball/742bd688bd778dde8991ba696cb372570610afcd",
+                "reference": "742bd688bd778dde8991ba696cb372570610afcd",
                 "shasum": ""
             },
             "require": {
@@ -4304,20 +4306,20 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-02 20:30:24"
+            "time": "2017-02-21 08:33:48"
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v2.8.17",
+            "version": "v2.8.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "1dfbf6a9e30113a9c4e482ab056e969c70c37a19"
+                "reference": "efdbeefa454a41154fd99a6f0489f0e9cb46c497"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/1dfbf6a9e30113a9c4e482ab056e969c70c37a19",
-                "reference": "1dfbf6a9e30113a9c4e482ab056e969c70c37a19",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/efdbeefa454a41154fd99a6f0489f0e9cb46c497",
+                "reference": "efdbeefa454a41154fd99a6f0489f0e9cb46c497",
                 "shasum": ""
             },
             "require": {
@@ -4367,20 +4369,20 @@
             ],
             "description": "Symfony DependencyInjection Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-27 23:54:58"
+            "time": "2017-02-28 12:31:05"
         },
         {
             "name": "symfony/dom-crawler",
-            "version": "v2.8.17",
+            "version": "v2.8.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dom-crawler.git",
-                "reference": "6225d65e001b3f03f63d43e302a26314f8e1e6fe"
+                "reference": "24b1a3ffa5b64e4f8b1c5f2cdffd16368640704a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/6225d65e001b3f03f63d43e302a26314f8e1e6fe",
-                "reference": "6225d65e001b3f03f63d43e302a26314f8e1e6fe",
+                "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/24b1a3ffa5b64e4f8b1c5f2cdffd16368640704a",
+                "reference": "24b1a3ffa5b64e4f8b1c5f2cdffd16368640704a",
                 "shasum": ""
             },
             "require": {
@@ -4423,20 +4425,20 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-21 16:40:50"
+            "time": "2017-02-21 08:33:48"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v2.8.17",
+            "version": "v2.8.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "74877977f90fb9c3e46378d5764217c55f32df34"
+                "reference": "bb4ec47e8e109c1c1172145732d0aa468d967cd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/74877977f90fb9c3e46378d5764217c55f32df34",
-                "reference": "74877977f90fb9c3e46378d5764217c55f32df34",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/bb4ec47e8e109c1c1172145732d0aa468d967cd0",
+                "reference": "bb4ec47e8e109c1c1172145732d0aa468d967cd0",
                 "shasum": ""
             },
             "require": {
@@ -4444,7 +4446,7 @@
             },
             "require-dev": {
                 "psr/log": "~1.0",
-                "symfony/config": "~2.0,>=2.0.5|~3.0.0",
+                "symfony/config": "^2.0.5|~3.0.0",
                 "symfony/dependency-injection": "~2.6|~3.0.0",
                 "symfony/expression-language": "~2.6|~3.0.0",
                 "symfony/stopwatch": "~2.3|~3.0.0"
@@ -4483,20 +4485,20 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-02 20:30:24"
+            "time": "2017-02-21 08:33:48"
         },
         {
             "name": "symfony/finder",
-            "version": "v2.8.17",
+            "version": "v2.8.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "355fccac526522dc5fca8ecf0e62749a149f3b8b"
+                "reference": "5fc4b5cab38b9d28be318fcffd8066988e7d9451"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/355fccac526522dc5fca8ecf0e62749a149f3b8b",
-                "reference": "355fccac526522dc5fca8ecf0e62749a149f3b8b",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/5fc4b5cab38b9d28be318fcffd8066988e7d9451",
+                "reference": "5fc4b5cab38b9d28be318fcffd8066988e7d9451",
                 "shasum": ""
             },
             "require": {
@@ -4532,20 +4534,20 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-02 20:30:24"
+            "time": "2017-02-21 08:33:48"
         },
         {
             "name": "symfony/process",
-            "version": "v2.8.17",
+            "version": "v2.8.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "0110ac49348d14eced7d3278ea7485f22196932e"
+                "reference": "41336b20b52f5fd5b42a227e394e673c8071118f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/0110ac49348d14eced7d3278ea7485f22196932e",
-                "reference": "0110ac49348d14eced7d3278ea7485f22196932e",
+                "url": "https://api.github.com/repos/symfony/process/zipball/41336b20b52f5fd5b42a227e394e673c8071118f",
+                "reference": "41336b20b52f5fd5b42a227e394e673c8071118f",
                 "shasum": ""
             },
             "require": {
@@ -4581,20 +4583,20 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-03 12:08:06"
+            "time": "2017-03-04 12:20:59"
         },
         {
             "name": "symfony/translation",
-            "version": "v2.8.17",
+            "version": "v2.8.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "c281ac2b484210bb95106bdb8ae8356e63277725"
+                "reference": "b538355bc99db2ec7cc35284ec76d92ae7d1d256"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/c281ac2b484210bb95106bdb8ae8356e63277725",
-                "reference": "c281ac2b484210bb95106bdb8ae8356e63277725",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/b538355bc99db2ec7cc35284ec76d92ae7d1d256",
+                "reference": "b538355bc99db2ec7cc35284ec76d92ae7d1d256",
                 "shasum": ""
             },
             "require": {
@@ -4607,7 +4609,7 @@
             "require-dev": {
                 "psr/log": "~1.0",
                 "symfony/config": "~2.8",
-                "symfony/intl": "~2.4|~3.0.0",
+                "symfony/intl": "~2.7.25|^2.8.18|~3.2.5",
                 "symfony/yaml": "~2.2|~3.0.0"
             },
             "suggest": {
@@ -4645,7 +4647,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-21 16:59:38"
+            "time": "2017-03-04 12:20:59"
         },
         {
             "name": "zendframework/zend-component-installer",
