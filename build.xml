@@ -122,6 +122,9 @@
     <target name="prepare" depends="clean" description="Prepare the project">
         <mkdir dir="${project.basedir}/build/behat/screenshots" />
         <mkdir dir="${project.basedir}/build/behat/responses" />
+        <mkdir dir="${project.basedir}/build/behat/reports" />
+        <mkdir dir="${project.basedir}/build/behat/reports/junit" />
+        <mkdir dir="${project.basedir}/build/behat/reports/html" />
     </target>
 
     <target name="clean" description="Clean the project">
@@ -150,11 +153,11 @@
     </target>
 
     <target name="test-unit" description="Run unit tests">
-        <exec command="./phpunit -c ${project.basedir}/tests/unit/phpunit.xml" dir="${project.basedir}/bin/" passthru="true"/>
+        <exec command="./phpunit -c ${project.basedir}/phpunit.xml" dir="${project.basedir}/bin/" passthru="true"/>
     </target>
 
     <target name="test-functional" description="Run functional tests">
-        <exec command="./behat -c ${project.basedir}/tests/functional/behat.yml --ansi" dir="${project.basedir}/bin/" passthru="true"/>
+        <exec command="./behat -c ${project.basedir}/behat.yml --ansi" dir="${project.basedir}/bin/" passthru="true"/>
     </target>
 
     <target name="clear-cache" description="Clear cache">
