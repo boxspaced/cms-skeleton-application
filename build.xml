@@ -124,7 +124,6 @@
         <mkdir dir="${project.basedir}/build/behat/responses" />
         <mkdir dir="${project.basedir}/build/behat/reports" />
         <mkdir dir="${project.basedir}/build/behat/reports/junit" />
-        <mkdir dir="${project.basedir}/build/behat/reports/html" />
     </target>
 
     <target name="clean" description="Clean the project">
