@@ -4,7 +4,7 @@ default:
       screenshot_path: %behat.paths.features%/../../../build/behat/screenshots
       response_path: %behat.paths.features%/../../../build/behat/responses
   paths:
-    features: features
+    features: ./tests/functional/features
     bootstrap: %behat.paths.features%/bootstrap
   extensions:
     Behat\MinkExtension\Extension:
